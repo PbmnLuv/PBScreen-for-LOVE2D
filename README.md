@@ -20,4 +20,18 @@ game_canvas is the canvas you'd like to draw
 game_width is your game canvas screen width
 game_height is your game canvas screen height
 
+===========================================================
+Example
+Let's say you have your game canvas resolution set to 852x420 and you want to exhibit it in a 1080p screen
+you'd need to just call this after having set your canvas:
+
+
+PBScreen.drawCanvas(canvas, 852, 420)
+
+
+And it will do what it's supposed to do. Even if you resize the screen it will keep it's shape and be centered in the middle of the window.
+
+
+===========================================================
+
 Thank you for trying it out! I hope it helps!
