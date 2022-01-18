@@ -21,7 +21,9 @@ game_width is your game canvas screen width
 game_height is your game canvas screen height
 
 ===========================================================
-Example
+
+Example:
+
 Let's say you have your game canvas resolution set to 852x420 and you want to exhibit it in a 1080p screen
 you'd need to just call this after having set your canvas:
 
