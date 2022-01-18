@@ -10,7 +10,8 @@ PBScreen =  require "path/PBScreen
 "
 Then you will need to set the canvas like you normally do
 
-After setting the canvas, you can call the method drawCanvas from the lib in order for the game canvas to fit the entire screen 
+After setting the canvas, you can call the method drawCanvas from the lib inside your draw function 
+in order for the game canvas to fit the entire screen 
 without any distortion and fully, and it should be stretch proof and support resizing.
 
 game_canvas is the canvas you'd like to draw
