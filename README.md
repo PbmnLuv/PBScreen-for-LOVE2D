@@ -3,12 +3,14 @@ Library for LÖVE that draws your canvas fully to the screen, stretch proof.
 
 How to use it:
 
-First off you'll need to require the file to a variable in your main or in any file you gonna use it
-suggested variable would be a global PBScreen
+First off you'll need to require the lib file to a variable in your main or in any other module you gonna use it.
+Suggested variable name would be a global PBScreen like this:
 
-PBScreen =  require "path/PBScreen
-"
-Then you will need to set the canvas like you normally do
+PBScreen =  require "path/PBScreen"
+
+===========================================================
+
+Then you will need to set the canvas like you normally do.
 
 After setting the canvas, you can call the method drawCanvas from the lib inside your draw function 
 in order for the game canvas to fit the entire screen 
